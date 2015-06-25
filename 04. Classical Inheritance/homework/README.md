@@ -11,7 +11,7 @@ Classical Inheritance
 		*	if any of the above is not met, throw Error 		
 	*	property `fullname`
 		*	the getter returns a string in the format 'FIRST_NAME LAST_NAME'
-		*	the setter receives a string is the format 'FIRST_NAME LAST_NAME'
+		*	the setter receives a string in the format 'FIRST_NAME LAST_NAME'
 			*	it must parse it and set `firstname` and `lastname`
 	*	method `introduce()` that returns a string in the format 'Hello! My name is FULL_NAME and I am AGE-years-old'
 	*	all methods and properties must be attached to the prototype of the Person
